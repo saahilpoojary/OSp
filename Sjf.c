@@ -106,3 +106,21 @@ time%f"
 
 , sum/n,at/n);
 }
+/* OUTPUT
+Enter the number of processes: 4
+
+Enter the burst time of each process:
+P0: 5
+P1: 4
+P2: 3
+P3: 2
+
+Process No      Burst Time      Waiting Time    Turnaround Time
+P3              2               0               2
+P2              3               2               5
+P1              4               5               9
+P0              5               9               14
+
+Average Waiting Time: 4.00
+Average Turnaround Time: 7.50
+*/
