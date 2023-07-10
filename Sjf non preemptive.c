@@ -38,3 +38,21 @@ int main() {
     
     return 0;
 }
+/* OUTPUT
+Enter the number of processes: 4
+Enter the arrival time for process P1: 0
+Enter the burst time for process P1: 5
+Enter the arrival time for process P2: 2
+Enter the burst time for process P2: 4
+Enter the arrival time for process P3: 3
+Enter the burst time for process P3: 2
+Enter the arrival time for process P4: 5
+Enter the burst time for process P4: 1
+P[1]    |       5       |       0
+P[4]    |       1       |       0
+P[3]    |       5       |       3
+P[2]    |       10      |       6
+
+Average waiting time = 2.250000
+Average turnaround time = 5.250000
+*/
